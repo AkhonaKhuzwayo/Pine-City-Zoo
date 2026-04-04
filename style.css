@@ -122,3 +122,16 @@ a.info-box{
 #info-box-full h3{
     text-align: center;
 }
+
+/* Full-page-ish map, scrollable */
+#main-home {
+  width: 100%;
+  min-height: 100vh; /* at least full screen, but can grow */
+  overflow: visible; /* allow scroll */
+}
+
+#main-home img {
+  width: 100%;
+  height: auto; /* scale proportionally */
+  display: block;
+}
